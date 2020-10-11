@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="cmd_smoother" name="cmd_smoother" type="smoother.py" output="screen">
+    <param name="rate" type="int" value="50"/>
+    <param name="beta" type="double" value="0.2"/>
+  </node>
+</launch>
